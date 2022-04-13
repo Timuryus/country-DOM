@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list li {
+  padding: 15px 5%;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0;
+  border-right: 1px solid black;
+  transition: 0.6s;
+}
+
+.list li:hover {
+  background-color: white;
+}
+
+.list li.active {
+  background-color: white;
+  transition: 0.5s;
+}
+
+.ph {
+  padding: 5% 5%;
+}
+
+.ph p {
+  font-size: 24px;
+  font-weight: 800;
+  text-shadow: 1px 1px 5px gray;
+}
